@@ -61,4 +61,12 @@
     `docker pull eu.gcr.io/container-project/node-container:[TAG]`
     - Or the IMAGE_DIGEST (Listed on the previous step):
 
-    `docker pull eu.gcr.io/container-project/node-container@[IMAGE_DIGEST]` 
+    `docker pull eu.gcr.io/container-project/node-container@[IMAGE_DIGEST]`
+
+### Last stepts
+
+ In order to get your container accessible. You must:
+ - Publish your container image to a Compute Engine on gcloud
+ - Give external access to the machine
+
+After that you will be able to access your container image remotely
